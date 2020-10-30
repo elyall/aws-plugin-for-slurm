@@ -39,12 +39,12 @@ Parameters:
 
   ComputeNodeInstanceType:
     Type: String
-    Default: c5.large
+    Default: p2.xlarge
     Description: Instance type to use to launch the compute node
 
   ComputeNodeCPUs:
     Type: Number
-    Default: 2
+    Default: 4
     Description: Number of vCPUs for the compute node instance type
 
 Metadata: 
